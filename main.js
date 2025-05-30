@@ -1,11 +1,9 @@
 import Body from './modules/Body.js';
 
-let game=
-{
-  
-};
+const CHARACTER = new Body();
 
 window.addEventListener('load', (e)=>
 {
-  console.log(Body, Point);
+  CHARACTER.setPosition(500,250);
+  console.log(CHARACTER, CHARACTER.getPosition());
 })
