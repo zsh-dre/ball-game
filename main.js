@@ -1,4 +1,11 @@
+import Body from './modules/Body.js';
+
+let game=
+{
+  
+};
+
 window.addEventListener('load', (e)=>
 {
-  document.body.innerHTML="Hello world";
+  console.log(Body, Point);
 })
