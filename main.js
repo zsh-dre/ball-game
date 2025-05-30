@@ -7,5 +7,5 @@ let game=
 
 window.addEventListener('load', (e)=>
 {
-  console.log(Body, Point);
+  document.innerHTML=Body.toString();
 })
