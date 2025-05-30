@@ -1,4 +1,4 @@
-import * from "Physics/Point.js"
+import Physics/Point;
 
 console.log(new Point(0,0));
 
